@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KSCore'
-  s.version          = '0.0.3'
+  s.version          = '0.0.6'
   s.summary          = 'KSCore view controller for development'
 
 
