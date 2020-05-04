@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KSCore'
   s.version          = '0.0.3'
-  s.summary          = 'A short description of KSCore.'
+  s.summary          = 'KSCore view controller for development'
 
 
   s.description      = 'Pod for core view controller to ease development'
@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
   s.author           = { 'kseta233' => 'kusuma.seta@silverglobe.com' }
   s.source           = { :git => 'https://github.com/kseta233/KSCoreVC.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+    spec.swift_version = '5.0'
 
   s.ios.deployment_target = '9.0'
 
