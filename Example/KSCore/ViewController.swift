@@ -7,18 +7,34 @@
 //
 
 import UIKit
+import KSCore
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+class ViewController: KSCoreViewController {
+    override func superSetup() {
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func setupLayout() {
+        
     }
-
+    override func setupViewModel() {
+        
+    }
+}
+extension ViewController : KSCoreViewControllerDelegate {
+    func onViewDidLoad() {
+        
+    }
+    
+    func onViewWillAppear() {
+        
+    }
+    
+    func onViewDidAppear() {
+        
+    }
+    
+    func onViewWillDissapear() {
+        
+    }
 }
 
