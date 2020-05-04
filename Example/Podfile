@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KSCore_Example' do
+  pod 'KSCore', :path => '../'
+
+  target 'KSCore_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
