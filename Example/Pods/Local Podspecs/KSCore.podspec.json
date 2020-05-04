@@ -1,0 +1,24 @@
+{
+  "name": "KSCore",
+  "version": "0.0.3",
+  "summary": "KSCore view controller for development",
+  "description": "Pod for core view controller to ease development",
+  "homepage": "https://github.com/kseta233/KSCoreVC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kseta233": "kusuma.seta@silverglobe.com"
+  },
+  "source": {
+    "git": "https://github.com/kseta233/KSCoreVC.git",
+    "tag": "0.0.3"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "KSCore/Classes/**/*",
+  "swift_version": "5.0"
+}

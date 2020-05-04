@@ -1,0 +1,16 @@
+PODS:
+  - KSCore (0.0.3)
+
+DEPENDENCIES:
+  - KSCore (from `../`)
+
+EXTERNAL SOURCES:
+  KSCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KSCore: 8ae93e0c202d7d9fc4920d6777f008cc4e5cd63c
+
+PODFILE CHECKSUM: 4003e2ca5fca89f402ac7f005e32577ec9344863
+
+COCOAPODS: 1.8.4

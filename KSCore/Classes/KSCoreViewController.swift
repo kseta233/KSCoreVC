@@ -122,7 +122,7 @@ open class KSCoreViewController: UIViewController {
                 bgImageView.contentMode = .scaleAspectFill
                 bgImageView.tag = tag
                 view.addSubview(bgImageView)
-                view.sendSubview(toBack: bgImageView)
+                view.sendSubviewToBack(bgImageView)
                 
             }else{
                 if #available(iOS 13.0, *) {
@@ -225,7 +225,7 @@ open class KSCoreViewController: UIViewController {
     func setupTableView(tableView: UITableView, withRefreshControl: Bool){
         //setup tableview
         tableView.estimatedRowHeight = 60
-        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.rowHeight = UITableView.automaticDimension
         tableView.tableHeaderView = UIView.init(frame: .zero)
         tableView.tableHeaderView?.isHidden = true
         tableView.tableFooterView = UIView.init(frame: .zero)
