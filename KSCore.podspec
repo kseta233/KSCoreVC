@@ -14,11 +14,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'Pod for core view controller to ease development'
 
-  s.homepage         = 'https://github.com/kseta233/KSCore'
+  s.homepage         = 'https://github.com/kseta233/KSCoreVC'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kseta233' => 'kusuma.seta@silverglobe.com' }
-  s.source           = { :git => 'https://github.com/kseta233/KSCore.git', :tag => s.version.to_s }
+  s.source           = { :git => 'hhttps://github.com/kseta233/KSCoreVC.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
